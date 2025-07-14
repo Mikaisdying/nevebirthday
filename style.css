@@ -19,7 +19,7 @@ input:hover {
   padding: 0 !important;
   margin: 0 !important;
   display: inline !important;
-  width: 3.75ch;
+  width: 3.6ch;
   min-width: 0;
   -webkit-text-security: none;
 }
@@ -155,4 +155,21 @@ input[type='text'] {
 #poetic-line-1,
 #poetic-line-2 {
   display: block;
+}
+
+/* Animation cho mưa emoji và nước dâng */
+@keyframes fall {
+  0% { transform: translateY(0); opacity: 0.8; }
+  100% { transform: translateY(100vh); opacity: 0; }
+}
+
+@keyframes riseWater {
+  0% { height: 0; }
+  100% { height: 40vh; }
+}
+
+@keyframes riseWaterFull {
+  0% { height: 0; }
+  50% { height: 60vh; }
+  100% { height: 100vh; }
 }
