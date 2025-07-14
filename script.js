@@ -1,4 +1,8 @@
 document.addEventListener('DOMContentLoaded', () => {
+  // Preload nhạc sinh nhật
+  const audio = new Audio('./KHÚC HÁT MỪNG SINH NHẬT - PHAN ĐINH TÙNG ( OFFICIAL VIDEO).mp3')
+  audio.preload = 'auto'
+
   const typewriterElem = document.getElementById('typewriter')
   const input = document.getElementById('name-input')
 
