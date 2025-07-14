@@ -1,0 +1,158 @@
+body {
+  --black: #2c2c2c;
+  --green: #27ae60;
+  --red: #e74c3c;
+  --white: #fafafa;
+}
+
+input,
+input,
+input:focus,
+input:active,
+input:hover {
+  border: none !important;
+  background: transparent !important;
+  box-shadow: none !important;
+  outline: none !important;
+  font-family: 'EB Garamond', serif !important;
+  font-size: 2rem !important;
+  padding: 0 !important;
+  margin: 0 !important;
+  display: inline !important;
+  width: 3.75ch;
+  min-width: 0;
+  -webkit-text-security: none;
+}
+#typewriter-inline {
+  display: block;
+  font-family: 'EB Garamond', serif !important;
+  font-size: 2rem !important;
+  margin-bottom: 1.5rem;
+}
+next-typed {
+  margin-left: 0;
+}
+
+#typewriter-inline > * {
+  font-family: inherit !important;
+  font-size: inherit !important;
+  line-height: 1.2;
+  display: inline;
+  vertical-align: baseline;
+}
+
+#typewriter-inline input {
+  font-size: inherit !important;
+}
+
+#feedback,
+#typewriter {
+  display: inline;
+  font-family: inherit;
+  font-size: inherit;
+  margin: 0;
+  padding: 0;
+  word-break: break-word;
+}
+
+.typed-cursor {
+  display: inline;
+  font-size: inherit !important;
+  line-height: inherit !important;
+  vertical-align: baseline;
+  margin: 0;
+  padding: 0;
+  color: var(--black);
+  background: none;
+  position: static !important;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background: var(--white);
+  font-family: 'EB Garamond', serif !important;
+  color: var(--black) !important;
+  font-weight: 400;
+  font-size: 2rem !important;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.container {
+  max-width: 800px;
+  margin: 40px auto;
+  padding: 0 24px;
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+}
+
+#typewriter {
+  font-family: inherit;
+  font-size: inherit;
+  margin-bottom: 0;
+  word-break: break-word;
+  display: inline;
+}
+#app-cursor {
+  display: inline-block;
+  width: 1px;
+  height: 1.2em;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background: var(--black);
+  font-family: 'EB Garamond', serif !important;
+  transition: opacity 0.1s;
+  opacity: 1;
+}
+
+#name-input.red {
+  color: var(--red);
+}
+#name-input.green {
+  color: var(--green);
+}
+
+#feedback {
+  font-size: 1rem;
+  margin-top: 8px;
+  min-height: 1.5em;
+  border: none;
+  background: transparent;
+  outline: none;
+  font: inherit;
+  color: inherit;
+  padding: 0;
+  margin: 0;
+  display: inline;
+  width: auto;
+  min-width: 2em;
+  vertical-align: baseline;
+  box-shadow: none;
+}
+
+input[type='text'] {
+  font-family: 'EB Garamond', serif !important;
+}
+
+#after-nev,
+#explain-block {
+  display: inline;
+  margin-left: 4px;
+}
+
+#explain-block {
+  display: block;
+  margin-top: 1rem;
+  line-height: 1.4;
+}
+
+#poetic-line-1,
+#poetic-line-2 {
+  display: block;
+}
